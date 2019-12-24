@@ -353,11 +353,14 @@ body {
 #brand > .container > .brand-slider { background: #000;}
 
 footer { 
+  text-align: center;
   display: block;
   padding-bottom: 50px;
   overflow: hidden;
   background: #666;
 }
+
+
 
 #list { 
   width: 1200px;
@@ -366,6 +369,8 @@ footer {
  font-size: 14px;
   display: inline-block;
   padding: 5px;
+  line-height: 20px;
+  margin-top: 15px;
 }
 
 #list > ul > li { display: inline-block; margin-bottom: 20px;}
@@ -397,5 +402,11 @@ footer {
   font-weight: bold;
   border-bottom: 3px solid #444;
 }
+
+#new_product > .container> .item_list  { 
+  text-align: left;
+}
+
+#top_seller > .container > .item_list { text-align: left;}
 
 #category dl dd { font-size: 12px;}
